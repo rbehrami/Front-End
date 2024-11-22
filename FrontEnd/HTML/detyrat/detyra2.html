@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css">
+    <title>Employee Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+         
+            <img src="./regjistrimi-ikon.png" alt="logo"/><h1>Employee registration Form</h1>
+          
+            <input type="radio" name="genre" id="genre">Mr
+            <input type="radio" name="genre" id="genre">Mrs.
+            <input type="radio" name="genre" id="genre">Ms.<br>
+
+        <div class="form-item">    
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" size="25" maxlength="15" placeholder="First Name" required><br><br>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" size="25" maxlength="15" placeholder="Last Name" required><br><br>
+            <label for="maddress1">Mail Address1</label>
+            <input type="text" name="maddress1" id="maddress1" size="25" maxlength="50"><br><br>
+            <label for="maddress2">Mail Address2</label>
+            <input type="text" name="maddress2" id="maddress2" size="25" maxlength="50"><br><br>
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" size="25" maxlength="20"><br><br>
+        </div>
+            <label for="state">State</label>
+            <select name="" id="">
+                <option value="gujarat">Gujarat</option>
+                <option value="indi">Indi</option>
+                <option value="angli">Angli</option>
+            </select><br><br>
+
+            <label for="zip">Zip</label>
+            <input type="text" name="zip" id="zip" size="25" maxlength="10"><br><br>
+
+            <label for="fileselec">Upload Photo</label>
+            <input type="file" name="upload" id="fileselect"><br><br>
+
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" size="25" maxlength="30"><br><br>
+
+            <label for="mobile">Mobile</label>
+            <input type="text" name="mobile" id="mobile" size="25" maxlength="15" placeholder="+383"><br><br>
+
+            <label for="Languageknow">Languages Known</label><br>
+            <input type="checkbox" name="gujarati" checked="select">Gujarati<br>
+            <input type="checkbox" name="hindi" checked="select">Hindi<br>
+            <input type="checkbox" name="English" checked="select">English<br>
+            <input type="checkbox" name="Marathi">Marathi<br><br>
+
+            <label for="additional">Additional Information</label>
+            <textarea name="comments" id="comments" cols="20" rows="4">Optional</textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form> 
+    </div> 
+</body>
+</html>
