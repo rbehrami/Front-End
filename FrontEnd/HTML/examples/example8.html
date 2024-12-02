@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #965a0b;
+            color: #fff;          
+        }
+        footer{
+            background-color: #965a0b;
+            color: #fff;
+            padding: 5px;       
+        }
+        main{
+            display: flex;
+	        min-height: 65vh;
+	        flex-direction: column;
+	        max-width: 400px;
+	        margin: auto;
+	        background: #fff;
+        }
+        header nav ul {
+            font-family: 'Times New Roman', Times, serif;
+            list-style-type: none;  
+            margin: auto;       
+        }
+        header nav a {
+            color: rgb(190, 187, 182);
+            text-decoration: none;
+            font-size: 20px;
+            display: block;
+            padding: 1px;
+        }
+
+        footer nav a {
+            color: rgb(204, 201, 196);
+            font-size: 20px;
+            display: block;
+            padding: 1px;
+        }
+        footer nav ul {
+            font-family: 'Times New Roman', Times, serif;         
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><b>Home</b></a></li>
+                <li><a href="#about"><b>About</b></a></li>
+                <li><a href="#menu"><b>Menu</b></a></li>
+                <li><a href="#order"><b>Order Online</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>About</h1>
+            <h1>Order Online</h1>
+                <form action="get">
+                    <table>
+                        <tr>
+                            <td></td>
+                            <td><b>Product</b></td>
+                            <td><b>Quantity</b></td>
+                        </tr>        
+                        <tr>
+                            <td>Item # 1</td>
+                            <td>
+                                <select name="" id="">
+                                    <option selected disabled>Please Select...</option>
+                                    <option value="Monitor1">Monitor 15.6<sub>"</sub></option>
+                                </select>
+                            </td>
+                            <td><input type="number">g</td>
+                        </tr>
+                        <tr>
+                            <td>Item # 2</td>
+                            <td>
+                                <select name="" id="">
+                                    <option selected disabled>Please Select...</option>
+                                    <option value="usb">USB-C 1TB</option>
+                                </select>
+                            </td>
+                            <td><input type="number">g</td>
+                        </tr>
+                        <tr>
+                            <td>Item # 3</td>
+                            <td>
+                                <select name="" id="">
+                                    <option selected disabled>Please Select...</option>
+                                </select>
+                            </td>
+                            <td><input type="number">g</td>
+                        </tr>
+                        <tr>
+                            <td>Item # 4</td>
+                            <td>
+                                <select name="" id="">
+                                    <option selected disabled>Please Select...</option>
+                                </select>
+                            </td>
+                            <td><input type="number">g</td>
+                        </tr>
+                    </table><br>
+                    <button>Order now</button>
+                </form>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="">Privacy Police</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Yet another random link</a></li>
+            </ul>
+        </nav> 
+    </footer>
+</body>
+</html>

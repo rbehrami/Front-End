@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girl Develop It</title>
+
+    <style>
+        h1{
+            color: orangered;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        u{
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        img{
+            align-items: center;
+        }
+        table, th, td{
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        b{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{
+            background-color: rgb(233, 177, 165);
+        }
+    </style>
+</head>
+<body>
+    <img src="images/girldevelopit.jpg" alt="girldevelop-logo">
+
+    <h1>About</h1>
+    <p>It can be intimidating for women to learn and ask questions when they are in an <b><u>extreme <br>minority</u></b>.
+       While open and welcoming, doday's budding developer community is up to <strong><u>91%<br> male</u></strong>.
+       If we can empower more females with the confidance in their technological capabilities<br>
+       <i><u>we can begin to change this landscape.</u></i>
+    </p>
+
+    <h1>Upcoming Classes</h1>
+    <table>
+        <tr>
+            <td><b>Location</b></td>
+            <td><b>Topic</b></td>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>JavaScript $ jQuery</td>
+        </tr>
+        <tr>
+            <td>New Yourk</td>
+            <td>HTML $ CSS</td>
+        </tr>
+    </table>
+
+    <h1>Sign Up!</h1>
+    <form action="get">
+        <label for="name"><b>Name:</b></label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="email"><b>Email:</b></label>
+        <input type="email" name="email" id="email"><br>
+        <p><b>Location:</b>
+            <select name="location" id="location">
+                <option value="location1">San Francisco</option>
+                <option value="location2">Washington</option>
+                <option value="location3">Las Vegas</option>
+            </select>
+        </p>
+        <fieldset>
+            <legend><b>Gender:</b></legend>
+            <b>Female</b> <input type="radio" name="Female" value="female">
+            <b>Male</b> <input type="radio" name="male" value="male">
+        </fieldset>
+
+        <p><b>Experience:</b><br>
+            <textarea name="mesazhi" id="mesazhi" cols="25" rows="2"></textarea>            
+        </p>
+
+        <button>Sign Up</button>
+    </form>
+</body>
+</html>
