@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 14, 87);
+}
+.box-model {
+    width: 200px;
+    height: 100px;
+    padding: 40px;    
+    margin: 40px;
+    border: 40px solid rgb(205, 232, 72);
+    background-color: white;
+    text-align: center;
+}

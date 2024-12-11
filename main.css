@@ -1,0 +1,34 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+html{
+    font-size: 16px;
+    font-family: "poppins";
+}
+.container {
+    font-size: 16px;
+    border: 3px;
+
+}
+
+.first-p {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.second-p {
+    font-size: 1rem;
+    font-style:;
+    text-transform: capitalize;
+    text-decoration:: ;
+}
+.third-p{
+    font-style: oblique;
+    text-transform: none;
+
+}
+
+.large {
+    line-height: 2m;
+    text-indent: 3em;
+}
