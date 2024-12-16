@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Josefin Slab;
+    /*font-family: Josefin Sans; */
+    
+}
+.header {
+    text-align: center;
+    padding: 10px;
+}
+.header-text > span{
+    display: block;
+    text-align: center;
+}
+.header-text-one{
+    font-size: 22px;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight:bolder;
+}
+.header-text-two{
+    font-size: 16px;
+}
+.main-text{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 25px;
+}
+.main-content img{
+    width: 700px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+.main-text{
+    font-size: 24px;
+}

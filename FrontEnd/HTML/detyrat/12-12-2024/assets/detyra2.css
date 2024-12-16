@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    display: grid;
+    place-items: center;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+}
+.box{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.box img{
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+}
+.box h2{
+    text-align: center;
+    font-size: 29px;
+    margin-top: 10px;
+}
+.box p{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
