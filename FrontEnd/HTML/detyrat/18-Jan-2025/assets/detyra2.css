@@ -1,0 +1,272 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    color: #fff;
+    padding: 0 5px;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a.logo {
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 60px;
+    cursor: pointer;
+    font-family: cursive;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s;
+}
+nav ul li {
+    line-height: 45px;
+    margin: 0 5px;
+}
+nav ul a {
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+
+
+}
+.active,nav ul a:hover {
+    background: #d5d0d1;
+    padding: 15px;
+}
+.main-container{
+    width: 880px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.content-item img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.content-image img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.content h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    padding: 15px;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.content h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.60;
+    padding: 15px;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+}
+.content p{
+    padding: 15px;
+    text-align: justify;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+.item{
+    padding: 40px;
+}
+.item h4{
+    text-align: center;
+    padding: 20px;
+}
+.item img{
+    width: 10vw;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.form{
+    width: 880px;
+    background-color: white;
+}
+.content input{
+    width: 100%;
+    padding: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.main-container-black{
+    background-color: black;
+}
+.main-container-black h2{
+    color: white;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    justify-content: space-between;
+    flex-direction: column;  
+}
+.section{
+    margin-bottom: 30px;
+    background-color: white;
+}
+.content{
+    margin-top: 25px;
+}
+.box-text{
+    font-size: 14px;
+    color: rebeccapurple;
+}
+.section-text > span {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    color: rgb(172, 174, 176);
+    padding: 10px;
+    border-bottom: 1px solid rgb(185, 180, 180);
+}
+.section-text > span > label {
+    background-color: red;
+    padding: 4px;
+    margin-left: 20px;
+    color: white;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #fcfbfc;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+.box h2{
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+}
+.box img{
+    width: 100%;
+    height: 250px;
+}
+.box h3{
+    font-size: 18px;
+    margin: 0;
+    padding: 5px;
+    margin-left: 15px;
+    color: rgb(142, 144, 145);
+}
+.box p{
+    padding: 20px;
+}
+.button{
+    margin: 10px 0 20px 20px;
+    padding: 8px;
+    width: 130px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.content-contact{
+    display: grid;
+    margin-bottom: 50px;
+
+}
+.grid-form{
+    display: grid;
+    grid-template-columns: 2fr 3fr ;
+    grid-template-rows: 2em 1fr;
+    grid-gap: 1em;
+}
+.itemsidebar_left{
+    grid-column: 1;
+    grid-row: 1/3;
+}
+.button{
+    text-transform: uppercase;
+}
+.item-contact_button{
+    grid-column: 2;
+    grid-row: 3;
+    text-align: right;
+}
+.item-contact_message{
+    text-align: right;
+}
+.item-contact_message input{
+    width: 81%;
+    padding: 10px;
+}
+.item-contact_form{
+   text-align: right;
+}
+.contact input{
+    width: 40%;
+    padding: 10px;
+    gap: 20px;
+}
+.content-contact h2{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: center;
+}
+.content-contact h3{
+    font-size: 12px;
+    color: gray;
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.content-contact h5{
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+}
+.itemsidebar_left{
+
+    text-align: left;
+}
+.itemsidebar_left h5{
+    font-size: 14px;
+    padding: 5px;
+}
+.footer{
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}

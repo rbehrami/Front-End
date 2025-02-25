@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(31, 29, 38);
+}
+.header{
+    width: 80%;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.title h2{
+    display: inline-block;
+    margin-right: 30px;
+    color: white;
+    font-size: 18px;
+}
+.input-form{
+    margin-top: 25px;
+}
+img{
+    display: block;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.container{
+    width: 25%;
+    height: 350px;
+    margin: auto;
+    background-color: rgb(41, 32, 67);
+
+    background-repeat: no-repeat;
+}
+.main-content{
+    width: 90%;
+    margin: auto;
+}
+.login{
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+}
+.input-text{
+    width: 100%;
+    font-size: 16px;
+    background-color: rgb(22, 20, 20);
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-size: 25px;
+    background-repeat: no-repeat;    
+}
+.input1{
+    background-image: url("./images/at-sign.png");
+    background-position: 10px 8px;
+}
+.input2{
+    background-image: url("./images/lock.png");
+    background-position: 10px 8px;
+}
+input{
+    color: white;
+}
+input:focus{
+   outline: none; 
+}
+.footer{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.btn-button{
+    width: 100%;
+    padding: 10px; 
+    margin-top: 10px;
+    background-color: rgb(227, 227, 126);
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 6px;
+   
+}
+.footer-one{
+    width: 45%;
+    margin: auto;
+}
+.bottom-text{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.bottom-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}

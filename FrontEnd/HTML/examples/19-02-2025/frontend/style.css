@@ -1,0 +1,9 @@
+.signup-btn{
+    border: none;
+    padding: 0.5rem;
+    background-color: rgb(96, 249, 144);
+}
+
+.img-fluid.img-full-width {
+    width: 100%;
+}
